@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.octagonWrap {
+    width: 410px;
+  height: 255px;
+  clip-path: polygon(93.39% 100%, 100% 87.1%, 100% 12.82%, 93.39% 0%, 6.23% 0%, 0% 12.82%, 0% 87.1%, 6.23% 100%, 49.81% 100%);
+  background-color: #161527;
+}
