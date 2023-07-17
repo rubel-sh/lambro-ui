@@ -1,6 +1,5 @@
 import React from "react";
 import HamMenuSvg from "../SvgComponents/HamMenuSvg";
-import GradientText from "../widgets/GradientText";
 
 const Header = () => {
     return (

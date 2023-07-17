@@ -1,14 +1,14 @@
 import React from "react";
-import GradientText from "../widgets/GradientText";
 import ActionButton from "../widgets/ActionButton";
 import RightArrowSvg from "../SvgComponents/RightArrowSvg";
+import { GradientTextLargeHeading } from "../widgets/StyledComponents";
 
 const Hero = () => {
     return (
         <div className="max-w-[942px] my-[172px] mx-auto relative z-10">
-            <GradientText className="text-center font-semibold">
+            <GradientTextLargeHeading className="text-center font-semibold">
                 Unleash Your Future with Next-Gen Meme Coin
-            </GradientText>
+            </GradientTextLargeHeading>
             <div className="mt-[25px]  text-center text-[#D8C4F3] text-[16px] lg:text-xl font-medium leading-[34px]">
                 Unleash Lambro Academy's power. Explore tokonomas and staking. Start your journey now!
             </div>
