@@ -1,5 +1,5 @@
 import Hero from "@/components/UI/Index/Hero";
-import KycAndAuditCards from "@/components/UI/Index/KycAndAuditCards";
+import KycAndAuditCardsSection from "@/components/UI/Index/KycAndAuditCardsSection";
 import Container from "@/components/Layout/Container";
 import Header from "@/components/Layout/Header";
 import ThingsAboutLambroSection from "@/components/UI/Index/ThingsAboutLambroSection";
@@ -21,7 +21,7 @@ export default function Home() {
             </div>
 
             {/* KYC AND AUDIT SECTION */}
-            <KycAndAuditCards />
+            <KycAndAuditCardsSection />
 
             {/* THINGS ABOUT LAMBRO SECTION*/}
             <ThingsAboutLambroSection />

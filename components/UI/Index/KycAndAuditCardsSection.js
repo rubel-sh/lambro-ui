@@ -4,7 +4,7 @@ import Container from "../../Layout/Container";
 import { GradientTextSmallHeading } from "../../widgets/StyledComponents";
 import GenericCard from "./GenericCard";
 
-const KycAndAuditCards = () => {
+const KycAndAuditCardsSection = () => {
     return (
         <div className="relative ">
             {/* Background Image */}
@@ -50,4 +50,4 @@ const KycAndAuditCards = () => {
     );
 };
 
-export default KycAndAuditCards;
+export default KycAndAuditCardsSection;
