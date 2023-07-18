@@ -1,5 +1,5 @@
-import Hero from "@/components/Index/Hero";
-import KycAndAuditCards from "@/components/Index/KycAndAuditCards";
+import Hero from "@/components/UI/Index/Hero";
+import KycAndAuditCards from "@/components/UI/Index/KycAndAuditCards";
 import Container from "@/components/Layout/Container";
 import Header from "@/components/Layout/Header";
 

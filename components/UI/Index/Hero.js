@@ -1,7 +1,7 @@
 import React from "react";
-import ActionButton from "../widgets/ActionButton";
-import RightArrowSvg from "../SvgComponents/RightArrowSvg";
-import { GradientTextLargeHeading } from "../widgets/StyledComponents";
+import ActionButton from "../../widgets/ActionButton";
+import RightArrowSvg from "../../SvgComponents/RightArrowSvg";
+import { GradientTextLargeHeading } from "../../widgets/StyledComponents";
 
 const Hero = () => {
     return (
