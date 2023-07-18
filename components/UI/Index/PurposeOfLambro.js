@@ -39,7 +39,7 @@ const PurposeOfLambro = () => {
                     </div>
                 ))}
             </div>
-            <div className="absolute top-0 left-0  -translate-y-52 -z-10">
+            <div className="absolute top-0 left-0  -translate-y-52 hidden xl:block -z-10 ">
                 <BlurCurlyCircleSvg />
             </div>
         </div>

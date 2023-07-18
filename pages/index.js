@@ -3,6 +3,7 @@ import KycAndAuditCardsSection from "@/components/UI/Index/KycAndAuditCardsSecti
 import Container from "@/components/Layout/Container";
 import Header from "@/components/Layout/Header";
 import ThingsAboutLambroSection from "@/components/UI/Index/ThingsAboutLambroSection";
+import KeyFeaturesSection from "@/components/UI/Index/KeyFeaturesSection";
 
 export default function Home() {
     return (
@@ -27,6 +28,7 @@ export default function Home() {
             <ThingsAboutLambroSection />
 
             {/* KEY FEATURES OF LAMBRO SECTION*/}
+            <KeyFeaturesSection />
 
             {/* TOKEN - LAMBRO SECTION*/}
 

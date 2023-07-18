@@ -36,7 +36,7 @@ const LambroAcademy = () => {
                     className="lg:translate-y-10 lg:-translate-x-10"
                 />
             </div>
-            <div className="absolute top-0 right-0  -translate-y-52 -z-10 ">
+            <div className="absolute top-0 right-0  -translate-y-72 -z-10  ">
                 <BlurCurlyCircleSvg />
             </div>
         </div>

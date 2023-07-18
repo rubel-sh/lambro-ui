@@ -5,7 +5,7 @@ import LambroAcademy from "./LambroAcademy";
 
 const ThingsAboutLambroSection = () => {
     return (
-        <div className="pt-32 px-5 overflow-hidden ">
+        <div className="pt-32 px-5  ">
             <AboutTheLambro />
             <PurposeOfLambro />
             <LambroAcademy />
