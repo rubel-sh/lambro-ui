@@ -2,6 +2,7 @@ import Hero from "@/components/UI/Index/Hero";
 import KycAndAuditCards from "@/components/UI/Index/KycAndAuditCards";
 import Container from "@/components/Layout/Container";
 import Header from "@/components/Layout/Header";
+import ThingsAboutLambroSection from "@/components/UI/Index/ThingsAboutLambroSection";
 
 export default function Home() {
     return (
@@ -13,7 +14,7 @@ export default function Home() {
                     <Hero />
                 </Container>
                 <img
-                    src="/assets/img/hero-btm-bg.png"
+                    src="/assets/img/hero-btm-bg-cropped.png"
                     alt=""
                     className="absolute top-0 bottom-0 h-screen object-cover z-[9]"
                 />
@@ -23,6 +24,7 @@ export default function Home() {
             <KycAndAuditCards />
 
             {/* THINGS ABOUT LAMBRO SECTION*/}
+            <ThingsAboutLambroSection />
 
             {/* KEY FEATURES OF LAMBRO SECTION*/}
 
