@@ -1,4 +1,5 @@
 import BlurCircleSvg from "@/components/SvgComponents/BlurCircleSvg";
+import BlurCurlyCircleSvg from "@/components/SvgComponents/BlurCurlyCircleSvg";
 import { GradientTextSmallHeading } from "@/components/widgets/StyledComponents";
 import Image from "next/image";
 import React from "react";
@@ -11,7 +12,7 @@ const PurposeOfLambro = () => {
         "The Lambro ecosystem empowers individuals, transforming novice investors into knowledgeable participants in the cryptocurrency world.",
     ];
     return (
-        <div className="grid lg:grid-cols-2 gap-y-10">
+        <div className="grid lg:grid-cols-2 gap-y-10 relative">
             {/* Left */}
             <div className="justify-self-end self-start  order-2 lg:order-1">
                 <Image
@@ -30,13 +31,16 @@ const PurposeOfLambro = () => {
                             <h2 className="absolute text-[50px] lg:text-[80px]  font-black text-[#30293c] ml-4 mt-1">
                                 {++index}
                             </h2>
-                            <div className="w-[80px] h-[80px]">
+                            <div className="w-[80px] h-[80px] lg:w-[110px] lg:h-[110px]">
                                 <BlurCircleSvg />
                             </div>
                         </div>
                         <p>{item}</p>
                     </div>
                 ))}
+            </div>
+            <div className="absolute top-0 left-0  -translate-y-52 -z-10">
+                <BlurCurlyCircleSvg />
             </div>
         </div>
     );

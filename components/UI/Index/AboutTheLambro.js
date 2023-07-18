@@ -1,10 +1,11 @@
+import BlurCurlyCircleSvg from "@/components/SvgComponents/BlurCurlyCircleSvg";
 import { GradientTextMediumHeading, GradientTextSmallHeading } from "@/components/widgets/StyledComponents";
 import Image from "next/image";
 import React from "react";
 
 const AboutTheLambro = () => {
     return (
-        <div className="grid  lg:grid-cols-2 ">
+        <div className="grid  lg:grid-cols-2 relative">
             {/* Left Texts */}
             <div className="justify-self-center  lg:justify-self-end">
                 <GradientTextSmallHeading>About The Lambro</GradientTextSmallHeading>
@@ -23,13 +24,16 @@ const AboutTheLambro = () => {
                 </div>
             </div>
             {/* right images */}
-            <div className="lg:justify-self-start justify-self-center lg:self-end">
+            <div className="lg:justify-self-start justify-self-center lg:self-end ">
                 <Image
                     src={"/assets/img/aboutLambroImage.png"}
                     width={600}
                     height={600}
                     className=" lg:translate-y-20 translate-y-10 -translate-x-10"
                 />
+            </div>
+            <div className="absolute top-0 right-0  -translate-y-52 -z-10 ">
+                <BlurCurlyCircleSvg />
             </div>
         </div>
     );
