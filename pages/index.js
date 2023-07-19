@@ -4,6 +4,7 @@ import Container from "@/components/Layout/Container";
 import Header from "@/components/Layout/Header";
 import ThingsAboutLambroSection from "@/components/UI/Index/ThingsAboutLambroSection";
 import KeyFeaturesSection from "@/components/UI/Index/KeyFeaturesSection";
+import LambroTokenSection from "@/components/UI/Index/LambroTokenSection";
 
 export default function Home() {
     return (
@@ -31,6 +32,7 @@ export default function Home() {
             <KeyFeaturesSection />
 
             {/* TOKEN - LAMBRO SECTION*/}
+            <LambroTokenSection />
 
             {/* TOKENOMICS LAMBRO CHART SECTION*/}
 
