@@ -11,13 +11,15 @@ const KeyFeaturesSection = () => {
                     src="/assets/img/lambro_key_features.png"
                     width={1920}
                     height={1080}
-                    className="mix-blend-screen max-w-[1300px] w-full mx-auto hidden md:block"
+                    draggable={false}
+                    className="mix-blend-screen max-w-[1300px] w-full mx-auto hidden md:block select-none"
                 />
                 <Image
                     src="/assets/img/lambro_key_features_mobile.png"
                     width={1920}
                     height={1080}
-                    className="mix-blend-screen max-w-[330px] w-full mx-auto md:hidden"
+                    draggable={false}
+                    className="mix-blend-screen max-w-[330px] w-full mx-auto md:hidden select-none"
                 />
             </div>
         </div>
