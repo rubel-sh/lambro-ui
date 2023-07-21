@@ -7,6 +7,7 @@ import KeyFeaturesSection from "@/components/UI/Index/KeyFeaturesSection";
 import LambroTokenSection from "@/components/UI/Index/LambroTokenSection";
 import LambroTokenomics from "@/components/UI/Index/LambroTokenomics";
 import LambroTeamSection from "@/components/UI/Index/LambroTeamSection";
+import LambroRoadmapSection from "@/components/UI/Index/LambroRoadmapSection";
 
 export default function Home() {
     return (
@@ -43,8 +44,10 @@ export default function Home() {
             <LambroTeamSection />
 
             {/* LAMBRO ROADMAP SECTION*/}
+            <LambroRoadmapSection />
 
             {/* FOOTER SECTION*/}
+            
         </main>
     );
 }
