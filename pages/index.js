@@ -45,7 +45,7 @@ export default function Home() {
             <LambroTeamSection />
 
             {/* LAMBRO ROADMAP SECTION*/}
-            {/* <LambroRoadmapSection /> */}
+            <LambroRoadmapSection />
 
             {/* FOOTER SECTION*/}
             <LambroFooter />
