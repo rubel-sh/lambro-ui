@@ -8,10 +8,11 @@ import LambroTokenSection from "@/components/UI/Index/LambroTokenSection";
 import LambroTokenomics from "@/components/UI/Index/LambroTokenomics";
 import LambroTeamSection from "@/components/UI/Index/LambroTeamSection";
 import LambroRoadmapSection from "@/components/UI/Index/LambroRoadmapSection";
+import LambroFooter from "@/components/UI/Index/LambroFooter";
 
 export default function Home() {
     return (
-        <main className="text-[#af9ec7]">
+        <main className="text-[#af9ec7] ">
             {/* HERO SECTION */}
             <div className="relative h-full overflow-hidden">
                 <Container>
@@ -44,7 +45,7 @@ export default function Home() {
             <LambroTeamSection />
 
             {/* LAMBRO ROADMAP SECTION*/}
-            <LambroRoadmapSection />
+            {/* <LambroRoadmapSection /> */}
 
             {/* FOOTER SECTION*/}
             <LambroFooter />

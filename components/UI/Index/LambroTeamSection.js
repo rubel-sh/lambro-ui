@@ -28,7 +28,7 @@ const LambroTeamSection = () => {
         },
     ];
     return (
-        <Container className="text-center pb-[400px]">
+        <Container className="text-center ">
             <GradientTextSmallHeading className="lg:!text-[44px] ">Team LAMBRO Crypto Ltd</GradientTextSmallHeading>
             <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-5 gap-y-16 ">
                 {members.map((member, index) => (
