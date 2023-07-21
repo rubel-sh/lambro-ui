@@ -7,14 +7,15 @@ const Hero = () => {
     return (
         <div className="max-w-[942px] my-[172px] mx-auto relative z-10">
             <GradientTextLargeHeading className="text-center font-semibold">
-                Unleash Your Future with Next-Gen Meme Coin
+                Drive Into Your Future With Lambro
             </GradientTextLargeHeading>
             <div className="mt-[25px]  text-center text-[#D8C4F3] text-[16px] lg:text-xl font-medium leading-[34px]">
-                Unleash Lambro Academy's power. Explore tokonomas and staking. Start your journey now!
+                Discover a new realm of potential through the power of Lambro
             </div>
 
-            <div className=" mt-[60px] flex justify-center">
+            <div className=" mt-[60px] flex justify-center gap-2 md:gap-x-5">
                 <ActionButton arrow>Whitepaper</ActionButton>
+                <ActionButton>Buy Lambro Tokens</ActionButton>
             </div>
             {/* <div className="text-white text-lg font-medium leading-[18px]">Whitepaper</div> */}
             <div className="w-6 h-6 relative" />
