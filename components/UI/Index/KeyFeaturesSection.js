@@ -5,7 +5,7 @@ import React from "react";
 const KeyFeaturesSection = () => {
     return (
         <div className="text-center pt-36">
-            <GradientTextSmallHeading>Key Features of Lambro</GradientTextSmallHeading>
+            <GradientTextSmallHeading>Key Features</GradientTextSmallHeading>
             <div className="mt-5">
                 <Image
                     src="/assets/img/lambro_key_features.png"

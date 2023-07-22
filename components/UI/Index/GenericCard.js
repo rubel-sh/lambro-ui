@@ -24,7 +24,7 @@ const GenericCard = ({ image, title, desc, glowColor }) => {
                 className="mix-blend-screen translate-y-1/2 absolute bottom-0 -left-16 group-hover:left-0 transition-all"
             />
             <div className="relative">
-                <Image src={image} width={95} height={95} className="w-[50px] h-[50px]" />
+                <Image src={image} width={95} height={95} className="w-[80px] h-[80px]" />
                 <div
                     className="absolute top-5 left-5 w-[20px] rounded-full h-[20px] -z-10"
                     style={{ backgroundColor: glowColor, boxShadow: `0px 0px 30px 10px ${glowColor}` }}

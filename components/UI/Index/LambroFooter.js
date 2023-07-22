@@ -14,7 +14,7 @@ const LambroFooter = () => {
             <Container>
                 {/* Upper Part */}
                 <div className="flex flex-col items-center pb-10">
-                    <GradientTextMediumHeading className="mb-8">Want to know more</GradientTextMediumHeading>
+                    <GradientTextMediumHeading className="mb-8">Want to Know More?</GradientTextMediumHeading>
                     <div className="max-w-[580px] text-[16px] md:text-[20px] mb-11 text-center">
                         Contact us via email or any of our social channels to get to know us, Lambro and the community
                     </div>
@@ -28,31 +28,52 @@ const LambroFooter = () => {
                             <FooterTitle>General</FooterTitle>
                             <ul className="mt-2 space-y-1">
                                 <li>
-                                    <FooterLink href="#">Terms & Conditions</FooterLink>
+                                    <FooterLink href="https://lambro.gitbook.io/lambro/policies/terms-and-conditions">
+                                        Terms & Conditions
+                                    </FooterLink>
                                 </li>
                                 <li>
-                                    <FooterLink href="#">Privacy Policy</FooterLink>
+                                    <FooterLink href="https://lambro.gitbook.io/lambro/policies/privacy-policy">
+                                        Privacy Policy
+                                    </FooterLink>
                                 </li>
                             </ul>
+                            {/* Social Media */}
+                            <div className="mt-5">
+                                <FooterTitle>Social Media</FooterTitle>
+                                <div className="flex items-center gap-x-6 mt-2">
+                                    <Link target="_blank" href="https://facebook.com/lambrotoken">
+                                        <FacebookIconSvg />
+                                    </Link>
+                                    <Link target="_blank" href="https://twitter.com/lambrotoken">
+                                        <TwitterIconSvg />
+                                    </Link>
+                                    <Link target="_blank" href="https://www.instagram.com/lambrotoken/">
+                                        <InstagramIconSvg />
+                                    </Link>
+                                </div>
+                            </div>
                         </div>
                         {/* Contact */}
                         <div>
                             <FooterTitle>Contact</FooterTitle>
                             <ul className="mt-2 space-y-1">
                                 <li>
-                                    <FooterLink href="#">Medium</FooterLink>
+                                    <FooterLink href="https://medium.com/@lambrotoken">Medium</FooterLink>
                                 </li>
                                 <li>
-                                    <FooterLink href="#">Linkedin</FooterLink>
+                                    <FooterLink href="https://www.linkedin.com/company/lambrotoken/">
+                                        Linkedin
+                                    </FooterLink>
                                 </li>
                                 <li>
-                                    <FooterLink href="#">Telegram</FooterLink>
+                                    <FooterLink href="https://t.me/+UP2jGlI2dhdmYzg0">Telegram</FooterLink>
                                 </li>
                                 <li>
-                                    <FooterLink href="#">Discord</FooterLink>
+                                    <FooterLink href="https://discord.gg/G2GKn7mS">Discord</FooterLink>
                                 </li>
                                 <li>
-                                    <FooterLink href="#">Reddit</FooterLink>
+                                    <FooterLink href="https://www.reddit.com/r/lambro/">Reddit</FooterLink>
                                 </li>
                             </ul>
                         </div>
@@ -60,6 +81,24 @@ const LambroFooter = () => {
                         {/* Projects */}
                         <div>
                             <FooterTitle>Projects</FooterTitle>
+                            <ul className="mt-2 space-y-1">
+                                <li>
+                                    <FooterLink href="https://lambrostaking.io/">Stacking</FooterLink>
+                                </li>
+                                <li>
+                                    <FooterLink href="https://lambro.academy/">Academy</FooterLink>
+                                </li>
+                                <li>
+                                    <FooterLink href="https://bscscan.com/token/0x201AF44d9DfA5464F20B8dD8aA96Fc016d26E7C0">
+                                        Lambro Contract
+                                    </FooterLink>
+                                </li>
+                            </ul>
+                        </div>
+
+                        {/* Social Media */}
+                        <div className="">
+                            <FooterTitle>Scanners & Trackers</FooterTitle>
                             <ul className="mt-2 space-y-1">
                                 <li>
                                     <FooterLink href="#">Stacking</FooterLink>
@@ -71,22 +110,6 @@ const LambroFooter = () => {
                                     <FooterLink href="#">Lambro Contract</FooterLink>
                                 </li>
                             </ul>
-                        </div>
-
-                        {/* Social Media */}
-                        <div>
-                            <FooterTitle>Social Media</FooterTitle>
-                            <div className="flex items-center gap-x-6 mt-2">
-                                <Link href="#">
-                                    <FacebookIconSvg />
-                                </Link>
-                                <Link href="#">
-                                    <TwitterIconSvg />
-                                </Link>
-                                <Link href="#">
-                                    <InstagramIconSvg />
-                                </Link>
-                            </div>
                         </div>
                     </div>
                     {/* Lambro Images */}
@@ -114,7 +137,7 @@ const FooterTitle = ({ children }) => {
 
 const FooterLink = ({ children, href }) => {
     return (
-        <Link href={href} className="text-[14px] text-[#847797] font-konnect font-medium">
+        <Link href={href} target="_blank" className="text-[14px] text-[#847797] font-konnect font-medium">
             {children}
         </Link>
     );

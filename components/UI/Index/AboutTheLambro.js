@@ -8,18 +8,30 @@ const AboutTheLambro = () => {
         <div className="grid  lg:grid-cols-2 relative ">
             {/* Left Texts */}
             <div className="justify-self-center  lg:justify-self-end">
-                <GradientTextSmallHeading>About The Lambro</GradientTextSmallHeading>
+                <GradientTextSmallHeading>About Lambro</GradientTextSmallHeading>
                 <div className="lg:mt-8 mt-4 space-y-5 max-w-[650px]">
                     <p>
-                        Cryptocurrencies like Bitcoin have transformed digital value generation and storage. Meme coins
-                        have gained popularity for entertainment and community engagement. However, meme coins often
-                        lack practical utility. Lambro sets itself apart by providing tangible benefits.
+                        In an increasingly digital world, the advent of cryptocurrencies has revolutionized how value is
+                        created, distributed, and stored. Since the creation of Bitcoin, the first decentralized
+                        cryptocurrency, this sector has grown exponentially. It's now teeming with a variety of tokens,
+                        each offering their unique proposition and value. Among these, meme coins have carved out a
+                        significant niche, capturing the public's imagination with their humor and community-driven
+                        approach.
                     </p>
                     <p>
-                        Lambro is not just another meme coin; it offers the Lambro Academy for education in the digital
-                        economy. Its investor-friendly tokenomics model redistributes value to holders, ensuring
-                        stability and rewarding long-term holding. Choose Lambro for a unique meme coin experience that
-                        combines education, community, and financial benefits.
+                        While this novel class of cryptocurrencies is fascinating, a common criticism has been their
+                        lack of tangible utility. This is where Lambro steps in. As a proud entrant in the world of meme
+                        coins, Lambro recognizes the need for practical use-case and tangible benefits for holders.
+                        Thus, Lambro isn't just another token on the blockchain; it's a vibrant community and an
+                        ecosystem of learning. Lambro is designed to add value to its holders' lives beyond potential
+                        financial gains.
+                    </p>
+                    <p>
+                        By integrating with the Lambro Academy, an innovative online learning platform, Lambro offers
+                        its holders an opportunity to learn about the digital economy, online businesses, and more. This
+                        commitment to education sets Lambro apart, by intertwining entertainment and learning, we're
+                        making complex financial concepts accessible and digestible for everyone. Join us in driving the
+                        future of crypto education
                     </p>
                 </div>
             </div>

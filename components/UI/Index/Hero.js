@@ -14,7 +14,9 @@ const Hero = () => {
             </div>
 
             <div className=" mt-[60px] flex justify-center gap-2 md:gap-x-5">
-                <ActionButton arrow>Whitepaper</ActionButton>
+                <ActionButton arrow href={"https://lambro.gitbook.io/lambro"}>
+                    Whitepaper
+                </ActionButton>
                 <ActionButton>Buy Lambro Tokens</ActionButton>
             </div>
             {/* <div className="text-white text-lg font-medium leading-[18px]">Whitepaper</div> */}

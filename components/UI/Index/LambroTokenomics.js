@@ -29,9 +29,13 @@ const LambroTokenomics = () => {
     return (
         <Container className="pt-32 pb-40">
             <div className="text-center">
-                <GradientTextSmallHeading>Tokenomics Lambro</GradientTextSmallHeading>
-                <p className="text-[#b09fc9] text-[20px] mt-2">
-                    Lambro's tokenomics optimize rewards and liquidity for holders.
+                <GradientTextSmallHeading>Tokenomics</GradientTextSmallHeading>
+                <p className="text-[#b09fc9] text-[20px] mt-2 pb-2">
+                    Lambro’s tokenomics optimize rewards and utilities for holders.
+                </p>
+                <p>
+                    Currently over 90% of each wallet is locked leaving the liquidity(6%) and around an extra 3% of
+                    supply circulating.
                 </p>
             </div>
             {/* Image + Statistics */}

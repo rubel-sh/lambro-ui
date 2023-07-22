@@ -29,7 +29,9 @@ const KycAndAuditCardsSection = () => {
                         glowColor="#6a60fe"
                         image={"/assets/img/search-hexagonal-icon.png"}
                         title={"KYC Certification"}
-                        desc={"Verification of customer identities to comply with regulations and prevent fraud."}
+                        desc={
+                            "Trust is a critical component of the Lambro ecosystem. To foster this, we've implemented rigorous KYC procedures, a universally accepted practice to verify the identity of our stakeholders. This helps in maintaining a secure environment and deter fraudulent activities"
+                        }
                     />
                     <GenericCard
                         glowColor="#fb3b32"
@@ -47,7 +49,7 @@ const KycAndAuditCardsSection = () => {
                         glowColor="#1ba1fd"
                         image={"/assets/img/checkdot-hexagonal-icon.png"}
                         title={"In Checkdot"}
-                        desc={"Insufficient information available to provide a concise description."}
+                        desc={`Lambro's smart contracts have undergone thorough independent audits conducted by reputed auditing firms. These audits scrutinize our platform's code, security protocols, and underlying infrastructure to identify and mitigate potential vulnerabilities. We maintain high standards of security, ensuring that our community's assets are well-protected`}
                     />
                 </div>
             </Container>

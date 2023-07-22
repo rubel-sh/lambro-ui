@@ -20,13 +20,13 @@ const LambroTokenSection = () => {
                             <GradientTextSmallHeading className="font-normal !text-[18px]">
                                 Total supply:
                             </GradientTextSmallHeading>
-                            <span> 69.42B</span>
+                            <span> 69,420,000,000</span>
                         </div>
                         <div className="flex items-center gap-1 text-lg flex-wrap">
                             <GradientTextSmallHeading className="font-normal !text-[18px]">
                                 Circulating supply (at launch):
                             </GradientTextSmallHeading>
-                            <span> 41.65B (60% of total supply)</span>
+                            <span> 41.65B (5% at launch and working our way to 60% circulating)</span>
                         </div>
                         <p className="mt-4">
                             Remaining 40% reserved for development, marketing, team, advisors, and reserve fund Gradual
