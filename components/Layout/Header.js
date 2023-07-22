@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import HamMenuSvg from "../SvgComponents/HamMenuSvg";
 import Link from "next/link";
+import useCloseOnClickOutside from "@/hooks/useCloseOnClickOutside";
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [popupRef] = useCloseOnClickOutside(setIsOpen);
 
     return (
         <>
-            <nav className="relative z-20 ">
+            <nav ref={popupRef} className="relative z-20 ">
                 <div className="h-20  justify-between items-center  flex">
                     <div className="justify-start items-center gap-2.5 flex">
                         <img src="/assets/img/lambro-logo-name.png" />
