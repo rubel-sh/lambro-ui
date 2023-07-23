@@ -72,7 +72,7 @@ const LambroFooter = () => {
                                     <FooterLink href="https://t.me/+UP2jGlI2dhdmYzg0">Telegram</FooterLink>
                                 </li>
                                 <li>
-                                    <FooterLink href="https://discord.gg/G2GKn7mS">Discord</FooterLink>
+                                    <FooterLink href="https://discord.gg/uCgv43AC8g">Discord</FooterLink>
                                 </li>
                                 <li>
                                     <FooterLink href="https://www.reddit.com/r/lambro/">Reddit</FooterLink>
@@ -98,18 +98,71 @@ const LambroFooter = () => {
                             </ul>
                         </div>
 
-                        {/* Social Media */}
+                        {/* Scanners */}
                         <div className="">
                             <FooterTitle>Scanners & Trackers</FooterTitle>
-                            <ul className="mt-2 space-y-1">
+                            <ul className="mt-2 space-y-1 grid grid-cols-2 gap-x-5">
                                 <li>
-                                    <FooterLink href="#">Stacking</FooterLink>
+                                    <FooterLink href="https://bscscan.com/token/0x201af44d9dfa5464f20b8dd8aa96fc016d26e7c0">
+                                        Bscscan
+                                    </FooterLink>
                                 </li>
                                 <li>
-                                    <FooterLink href="#">Academy</FooterLink>
+                                    <FooterLink href="https://bsc.tokenview.io/en/address/0x201af44d9dfa5464f20b8dd8aa96fc016d26e7c0">
+                                        BscTokenView
+                                    </FooterLink>
                                 </li>
                                 <li>
-                                    <FooterLink href="#">Lambro Contract</FooterLink>
+                                    <FooterLink href="https://www.coinscope.co/coin/lambro">Coinscope</FooterLink>
+                                </li>
+                                <li>
+                                    <FooterLink href="https://tracker.checkdot.io/project/lambro">Checkdot</FooterLink>
+                                </li>
+                                <li>
+                                    <FooterLink href="https://top100token.com/address/0x201AF44d9DfA5464F20B8dD8aA96Fc016d26E7C0">
+                                        Top100Token
+                                    </FooterLink>
+                                </li>
+                                <li>
+                                    <FooterLink href="https://tokensniffer.com/token/bsc/nxe69zdsso2phi25ez913sksgo3znxjv232lv99h4kpg5zbxp6dk2nkmaqbx">
+                                        TokenSniffer
+                                    </FooterLink>
+                                </li>
+                                <li>
+                                    <FooterLink href="https://coinmarketcap.com/dexscan/bsc/0x4d080a7c3c8d02cca1ea8240a38d0eeab7e5bb00/">
+                                        Coinmarketcap pool
+                                    </FooterLink>
+                                </li>
+                                <li>
+                                    <FooterLink href="https://www.dextools.io/app/en/bnb/pair-explorer/0x4d080a7c3c8d02cca1ea8240a38d0eeab7e5bb00">
+                                        Charts
+                                    </FooterLink>
+                                </li>
+                                <li>
+                                    <FooterLink href="https://www.geckoterminal.com/bsc/pools/0x4D080A7c3C8D02CCA1eA8240A38d0EEAb7e5bB00">
+                                        Geckoterminal
+                                    </FooterLink>
+                                </li>
+                                <li>
+                                    <FooterLink href="https://coinbrain.com/coins/bnb-0x201af44d9dfa5464f20b8dd8aa96fc016d26e7c0">
+                                        Coinbrain
+                                    </FooterLink>
+                                </li>
+                                <li>
+                                    <FooterLink href="https://dexscreener.com/bsc/0x4d080a7c3c8d02cca1ea8240a38d0eeab7e5bb00">
+                                        Dexscreener
+                                    </FooterLink>
+                                </li>
+                                <li>
+                                    <FooterLink href="https://poocoin.app/tokens/0x201af44d9dfa5464f20b8dd8aa96fc016d26e7c0">
+                                        Poocoin
+                                    </FooterLink>
+                                </li>
+                                <li>
+                                    <FooterLink href="#">Coinmarketcap</FooterLink>
+                                </li>
+                                <li>
+                                    <FooterLink href="#">Coingecko</FooterLink>
                                 </li>
                             </ul>
                         </div>

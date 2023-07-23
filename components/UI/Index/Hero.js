@@ -17,7 +17,9 @@ const Hero = () => {
                 <ActionButton arrow href={"https://lambro.gitbook.io/lambro"}>
                     Whitepaper
                 </ActionButton>
-                <ActionButton>Buy Lambro Tokens</ActionButton>
+                <ActionButton href="https://pancakeswap.finance/swap?outputCurrency=0x201AF44d9DfA5464F20B8dD8aA96Fc016d26E7C0">
+                    Buy Lambro Tokens
+                </ActionButton>
             </div>
             {/* <div className="text-white text-lg font-medium leading-[18px]">Whitepaper</div> */}
             <div className="w-6 h-6 relative" />

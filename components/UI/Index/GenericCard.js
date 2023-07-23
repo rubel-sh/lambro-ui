@@ -1,11 +1,14 @@
 import BrightGlowLineSvg from "@/components/SvgComponents/BrightGlowLineSvg";
 import { GradientTextCardTitle, GradientTextSmallHeading } from "@/components/widgets/StyledComponents";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
-const GenericCard = ({ image, title, desc, glowColor }) => {
+const GenericCard = ({ image, title, desc, glowColor, href }) => {
     return (
-        <div
+        <Link
+            href={href}
+            target="_blank"
             className="relative bg-[#161527] bg-opacity-80 backdrop-blur-sm py-[18px] px-[17px] lg:py-[29px] lg:px-[26px] group overflow-x-hidden overflow-y-clip"
             style={{
                 clipPath: " polygon(0 10%, 6% 0, 94% 0, 100% 10%, 100% 90%, 94% 100%, 6% 100%, 0 90%)",
@@ -32,7 +35,7 @@ const GenericCard = ({ image, title, desc, glowColor }) => {
             </div>
             <GradientTextCardTitle className={"mt-4"}>{title}</GradientTextCardTitle>
             <p className="mt-3 text-base">{desc}</p>
-        </div>
+        </Link>
     );
 };
 
