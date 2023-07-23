@@ -16,9 +16,9 @@ const FacebookIconSvg = () => {
                     y2="9.69899"
                     gradientUnits="userSpaceOnUse"
                 >
-                    <stop stop-color="#896EFD" />
-                    <stop offset="0.0001" stop-color="#896EFD" />
-                    <stop offset="1" stop-color="#6B4AFC" />
+                    <stop stopColor="#896EFD" />
+                    <stop offset="0.0001" stopColor="#896EFD" />
+                    <stop offset="1" stopColor="#6B4AFC" />
                 </linearGradient>
             </defs>
         </svg>

@@ -17,20 +17,20 @@ const BrightGlowLineSvg = () => {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(163.5 16.5048) scale(163.5 16.5048)"
                 >
-                    <stop offset="0.06" stop-color="#CEF2FF" />
-                    <stop offset="0.07" stop-color="#9CCAEA" />
-                    <stop offset="0.08" stop-color="#659DD3" />
-                    <stop offset="0.1" stop-color="#397AC1" />
-                    <stop offset="0.11" stop-color="#1A61B3" />
-                    <stop offset="0.12" stop-color="#004CA9" />
-                    <stop offset="0.14" stop-color="#00459B" />
-                    <stop offset="0.18" stop-color="#003576" />
-                    <stop offset="0.23" stop-color="#002656" />
-                    <stop offset="0.29" stop-color="#001A3B" />
-                    <stop offset="0.35" stop-color="#001025" />
-                    <stop offset="0.42" stop-color="#000914" />
-                    <stop offset="0.52" stop-color="#000308" />
-                    <stop offset="0.64" stop-color="#000001" />
+                    <stop offset="0.06" stopColor="#CEF2FF" />
+                    <stop offset="0.07" stopColor="#9CCAEA" />
+                    <stop offset="0.08" stopColor="#659DD3" />
+                    <stop offset="0.1" stopColor="#397AC1" />
+                    <stop offset="0.11" stopColor="#1A61B3" />
+                    <stop offset="0.12" stopColor="#004CA9" />
+                    <stop offset="0.14" stopColor="#00459B" />
+                    <stop offset="0.18" stopColor="#003576" />
+                    <stop offset="0.23" stopColor="#002656" />
+                    <stop offset="0.29" stopColor="#001A3B" />
+                    <stop offset="0.35" stopColor="#001025" />
+                    <stop offset="0.42" stopColor="#000914" />
+                    <stop offset="0.52" stopColor="#000308" />
+                    <stop offset="0.64" stopColor="#000001" />
                     <stop offset="1" />
                 </radialGradient>
             </defs>

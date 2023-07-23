@@ -17,9 +17,9 @@ const TeamCardSvg = () => {
                     width="333"
                     height="413"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                 >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur in="BackgroundImageFix" stdDeviation="7" />
                     <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_99_247" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_99_247" result="shape" />
@@ -32,9 +32,9 @@ const TeamCardSvg = () => {
                     y2="189.24"
                     gradientUnits="userSpaceOnUse"
                 >
-                    <stop stop-color="#2D2743" stop-opacity="0.67" />
-                    <stop offset="0.0001" stop-color="#2E3547" stop-opacity="0.3" />
-                    <stop offset="1" stop-color="#2E3547" stop-opacity="0.3" />
+                    <stop stopColor="#2D2743" stopOpacity="0.67" />
+                    <stop offset="0.0001" stopColor="#2E3547" stopOpacity="0.3" />
+                    <stop offset="1" stopColor="#2E3547" stopOpacity="0.3" />
                 </linearGradient>
             </defs>
         </svg>

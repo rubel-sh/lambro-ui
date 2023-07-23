@@ -17,9 +17,9 @@ const BlurCurlyCircleSvg = () => {
                     width="1113.23"
                     height="1188.59"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                 >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
                     <feGaussianBlur stdDeviation="157" result="effect1_foregroundBlur_26_3" />
                 </filter>

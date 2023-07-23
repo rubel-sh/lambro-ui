@@ -34,7 +34,7 @@ const PurposeOfLambro = () => {
                 </div>
                 <div className="mt-12 space-y-8">
                     {purposeOfLambro.map((item, index) => (
-                        <div className="flex items-center text-lg max-w-[690px]">
+                        <div key={index} className="flex items-center text-lg max-w-[690px]">
                             <div className="grid place-items-center">
                                 <h2 className="absolute text-[50px] lg:text-[80px]  font-black text-[#30293c] ml-4 mt-1">
                                     {++index}
