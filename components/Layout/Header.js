@@ -24,9 +24,12 @@ const Header = () => {
                         <li className="text-white text-[15px] font-medium">Features</li>
                         <li className="text-white text-[15px] font-medium">Academy</li>
                         <li className="text-white text-[15px] font-medium">Roadmap</li>
-                        <button className="px-5 py-2.5 bg-indigo-900 rounded-[10px] border border-indigo-900 justify-start items-start gap-2.5 flex text-white text-[15px] font-medium">
+                        <Link
+                            href="mailto:bro@lambro.io"
+                            className="px-5 py-2.5 bg-indigo-900 rounded-[10px] border border-indigo-900 justify-start items-start gap-2.5 flex text-white text-[15px] font-medium"
+                        >
                             Contact Us
-                        </button>
+                        </Link>
                     </ul>
                 </div>
 

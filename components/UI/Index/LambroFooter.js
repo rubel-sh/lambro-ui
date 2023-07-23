@@ -18,7 +18,9 @@ const LambroFooter = () => {
                     <div className="max-w-[580px] text-[16px] md:text-[20px] mb-11 text-center">
                         Contact us via email or any of our social channels to get to know us, Lambro and the community
                     </div>
-                    <ActionButton comment>Contact Us</ActionButton>
+                    <ActionButton comment href="mailto:bro@lambro.io">
+                        Contact Us
+                    </ActionButton>
                 </div>
                 {/* Bottom Part */}
                 <div className="border-t-[1px] border-[#37353d]">
