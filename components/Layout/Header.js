@@ -47,7 +47,8 @@ const Header = () => {
 
                 {/* Mobile Drawer Menu */}
                 {isOpen && (
-                    <div className=" p-2 bg-[#23252a] absolute right-0 top-full rounded-lg lg:hidden">
+                    <div className=" px-6 py-7 bg-[#23252a] bg-gradient-to-tr from-[#1c1829] via-[#1b1c20] to-[#15131f]   absolute right-0 top-full rounded-lg lg:hidden  ">
+                        {/* <div class="absolute inset-0 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 border-4 border-gray-300"></div> */}
                         <ul className=" justify-start gap-y-5 flex flex-col   ">
                             <li className=" text-[15px] font-medium">
                                 <HeaderLink href={"#about"}>About</HeaderLink>
