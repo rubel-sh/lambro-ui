@@ -176,13 +176,6 @@ const LambroFooter = () => {
                                         Coinmarketcap pool
                                     </FooterLink>
                                 </li>
-
-                                <li>
-                                    <FooterLink href="#">Coinmarketcap</FooterLink>
-                                </li>
-                                <li>
-                                    <FooterLink href="#">Coingecko</FooterLink>
-                                </li>
                             </ul>
                         </div>
                     </div>
