@@ -9,6 +9,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 konnect: ["Konnect", "sans-serif"],
+                inter: ["Inter", "sans-serif"],
             },
             backgroundImage: {
                 "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

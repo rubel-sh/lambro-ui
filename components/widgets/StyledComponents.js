@@ -37,3 +37,7 @@ export const GradientTextCardTitle = ({ children, className }) => {
         </h2>
     );
 };
+
+export const TextPrimary = ({ children, className }) => (
+    <p className={`text-[14px] md:text-[18px] text-[#D8C4F3] text-opacity-80 font-normal ${className}`}>{children}</p>
+);

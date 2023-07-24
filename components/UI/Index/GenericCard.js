@@ -8,7 +8,7 @@ const GenericCard = ({ image, title, desc, glowColor, href }) => {
         <Link
             href={href}
             target="_blank"
-            className="relative bg-[#161527] bg-opacity-80 backdrop-blur-sm py-[18px] px-[17px] lg:py-[29px] lg:px-[26px] group overflow-x-hidden overflow-y-clip"
+            className="relative bg-[#161527] bg-opacity-80 backdrop-blur-sm py-[26px] px-[17px] lg:py-[29px] lg:px-[26px] group overflow-x-hidden overflow-y-clip"
             style={{
                 clipPath: " polygon(0 10%, 10% 0, 90% 0, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0 90%)",
             }}
@@ -26,14 +26,14 @@ const GenericCard = ({ image, title, desc, glowColor, href }) => {
                 className="mix-blend-screen translate-y-1/2 absolute bottom-0 -left-16 group-hover:left-0 transition-all"
             />
             <div className="relative">
-                <Image src={image} width={80} height={80} className="w-[70px] h-[70px]" />
+                <Image src={image} width={80} height={80} className="w-[50px] h-[50px] md:w-[65px] md:h-[65px]" />
                 <div
-                    className="absolute top-8 left-10 w-[20px] rounded-full h-[20px] -z-10"
+                    className="absolute top-5 left-6 md:top-8 md:left-10 w-[20px] rounded-full h-[20px] -z-10"
                     style={{ backgroundColor: glowColor, boxShadow: `0px 0px 40px 10px ${glowColor}` }}
                 ></div>
             </div>
-            <GradientTextCardTitle className={"mt-6"}>{title}</GradientTextCardTitle>
-            <p className="mt-3 text-base">{desc}</p>
+            <GradientTextCardTitle className={"mt-[29px]"}>{title}</GradientTextCardTitle>
+            <p className="mt-[10px] text-[14px] md:text-base text-[#D8C4F3] text-opacity-60">{desc}</p>
         </Link>
     );
 };

@@ -1,5 +1,5 @@
 import Container from "@/components/Layout/Container";
-import { GradientTextSmallHeading } from "@/components/widgets/StyledComponents";
+import { GradientTextSmallHeading, TextPrimary } from "@/components/widgets/StyledComponents";
 import Image from "next/image";
 import React from "react";
 
@@ -30,13 +30,13 @@ const LambroTokenomics = () => {
         <Container className="pt-32 pb-40">
             <div className="text-center">
                 <GradientTextSmallHeading>Tokenomics</GradientTextSmallHeading>
-                <p className="text-[#b09fc9] text-[20px] mt-2 pb-2">
+                <TextPrimary className="!text-[20px] mt-2 pb-2">
                     Lambro’s tokenomics optimize rewards and utilities for holders.
-                </p>
-                <p>
+                </TextPrimary>
+                <TextPrimary>
                     Currently over 90% of each wallet is locked leaving the liquidity(6%) and around an extra 3% of
                     supply circulating.
-                </p>
+                </TextPrimary>
             </div>
             {/* Image + Statistics */}
             <div className="grid lg:grid-cols-3 mt-12 gap-x-32 gap-y-5 max-w-[730px] mx-auto ">

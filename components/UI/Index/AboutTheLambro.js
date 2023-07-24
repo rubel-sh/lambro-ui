@@ -1,5 +1,9 @@
 import BlurCurlyCircleSvg from "@/components/SvgComponents/BlurCurlyCircleSvg";
-import { GradientTextMediumHeading, GradientTextSmallHeading } from "@/components/widgets/StyledComponents";
+import {
+    GradientTextMediumHeading,
+    GradientTextSmallHeading,
+    TextPrimary,
+} from "@/components/widgets/StyledComponents";
 import Image from "next/image";
 import React from "react";
 
@@ -10,29 +14,29 @@ const AboutTheLambro = () => {
             <div className="justify-self-center  lg:justify-self-end">
                 <GradientTextSmallHeading>About Lambro</GradientTextSmallHeading>
                 <div className="lg:mt-8 mt-4 space-y-5 max-w-[650px]">
-                    <p>
+                    <TextPrimary>
                         In an increasingly digital world, the advent of cryptocurrencies has revolutionized how value is
                         created, distributed, and stored. Since the creation of Bitcoin, the first decentralized
                         cryptocurrency, this sector has grown exponentially. It's now teeming with a variety of tokens,
                         each offering their unique proposition and value. Among these, meme coins have carved out a
                         significant niche, capturing the public's imagination with their humor and community-driven
                         approach.
-                    </p>
-                    <p>
+                    </TextPrimary>
+                    <TextPrimary>
                         While this novel class of cryptocurrencies is fascinating, a common criticism has been their
                         lack of tangible utility. This is where Lambro steps in. As a proud entrant in the world of meme
                         coins, Lambro recognizes the need for practical use-case and tangible benefits for holders.
                         Thus, Lambro isn't just another token on the blockchain; it's a vibrant community and an
                         ecosystem of learning. Lambro is designed to add value to its holders' lives beyond potential
                         financial gains.
-                    </p>
-                    <p>
+                    </TextPrimary>
+                    <TextPrimary>
                         By integrating with the Lambro Academy, an innovative online learning platform, Lambro offers
                         its holders an opportunity to learn about the digital economy, online businesses, and more. This
                         commitment to education sets Lambro apart, by intertwining entertainment and learning, we're
                         making complex financial concepts accessible and digestible for everyone. Join us in driving the
                         future of crypto education
-                    </p>
+                    </TextPrimary>
                 </div>
             </div>
             {/* right images */}
