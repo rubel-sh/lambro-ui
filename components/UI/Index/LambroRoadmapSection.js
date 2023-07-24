@@ -8,7 +8,7 @@ import React from "react";
 
 const LambroRoadmapSection = () => {
     return (
-        <div className="mt-14 lg:mt-28 text-center overflow-hidden bg-[#070211]" id="roadmap">
+        <div className="mt-14 lg:mt-28 text-center overflow-hidden bg-[#070211] " id="roadmap">
             <GradientTextSmallHeading className="lg:!text-[44px] mb-5 lg:mb-16 pt-16 font-semibold relative z-10">
                 Lambro Roadmap
             </GradientTextSmallHeading>

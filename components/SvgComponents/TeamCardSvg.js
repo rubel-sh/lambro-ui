@@ -2,12 +2,11 @@ import React from "react";
 
 const TeamCardSvg = () => {
     return (
-        <svg viewBox="0 0 305 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 305 385" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_b_99_247)">
                 <path
                     d="M20.3733 0L0 23.4297V361.57L20.3733 385H284.627L305 361.57V23.4297L284.627 0H20.3733Z"
                     fill="url(#paint0_linear_99_247)"
-                    className="min-h-[600px]"
                 />
             </g>
             <defs>

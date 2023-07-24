@@ -3,7 +3,11 @@ import FacebookIconSvg from "@/components/SvgComponents/FacebookIconSvg";
 import InstagramIconSvg from "@/components/SvgComponents/InstagramIconSvg";
 import TwitterIconSvg from "@/components/SvgComponents/TwitterIconSvg";
 import ActionButton from "@/components/widgets/ActionButton";
-import { GradientTextMediumHeading, GradientTextSmallHeading } from "@/components/widgets/StyledComponents";
+import {
+    GradientTextMediumHeading,
+    GradientTextSmallHeading,
+    TextPrimary,
+} from "@/components/widgets/StyledComponents";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -15,9 +19,9 @@ const LambroFooter = () => {
                 {/* Upper Part */}
                 <div className="flex flex-col items-center pb-10">
                     <GradientTextMediumHeading className="mb-8">Want to Know More?</GradientTextMediumHeading>
-                    <div className="max-w-[580px] text-[16px] md:text-[20px] mb-11 text-center">
+                    <TextPrimary className="max-w-[580px] text-[16px] md:text-[20px] mb-11 text-center">
                         Contact us via email or any of our social channels to get to know us, Lambro and the community
-                    </div>
+                    </TextPrimary>
                     <ActionButton comment href="mailto:bro@lambro.io">
                         Contact Us
                     </ActionButton>

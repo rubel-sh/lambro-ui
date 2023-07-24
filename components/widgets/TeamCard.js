@@ -22,7 +22,7 @@ const TeamCard = ({ image, name, designation }) => {
                 />
             </div>
 
-            <div className="absolute inset-x-0 inset-y-0 -translate-y-5 md:-translate-y-14 ">
+            <div className="absolute inset-x-0 inset-y-0 -translate-y-12 md:-translate-y-14 ">
                 {/* Image section */}
                 <div>
                     <Image src={image} width={1200} height={800} className="w-full h-full relative z-50" />
@@ -30,7 +30,7 @@ const TeamCard = ({ image, name, designation }) => {
                 {/* Texts section */}
                 <div className="mt-5 px-2">
                     <GradientTextCardTitle className="!text-[24px] font-medium">{name}</GradientTextCardTitle>
-                    <p className="mt-1 text-base">{designation}</p>
+                    <p className="mt-2 text-base">{designation}</p>
                 </div>
             </div>
         </div>
