@@ -1,5 +1,4 @@
-import BrightGlowLineSvg from "@/components/SvgComponents/BrightGlowLineSvg";
-import { GradientTextCardTitle, GradientTextSmallHeading } from "@/components/widgets/StyledComponents";
+import { GradientTextCardTitle } from "@/components/widgets/StyledComponents";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
