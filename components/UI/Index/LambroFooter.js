@@ -24,7 +24,7 @@ const LambroFooter = () => {
                 </div>
                 {/* Bottom Part */}
                 <div className="border-t-[1px] border-[#37353d]">
-                    <div className="grid grid-cols-2 lg:grid-cols-4 mt-8 gap-y-5 mb-11">
+                    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 mt-8 gap-y-8 mb-11">
                         {/* General */}
                         <div>
                             <FooterTitle>General</FooterTitle>
@@ -100,8 +100,8 @@ const LambroFooter = () => {
 
                         {/* Scanners */}
                         <div className="">
-                            <FooterTitle>Scanners & Trackers</FooterTitle>
-                            <ul className="mt-2 space-y-1 grid grid-cols-2 gap-x-5">
+                            <FooterTitle>Scanners </FooterTitle>
+                            <ul className="mt-2 space-y-1">
                                 <li>
                                     <FooterLink href="https://bscscan.com/token/0x201af44d9dfa5464f20b8dd8aa96fc016d26e7c0">
                                         Bscscan
@@ -118,24 +118,16 @@ const LambroFooter = () => {
                                 <li>
                                     <FooterLink href="https://tracker.checkdot.io/project/lambro">Checkdot</FooterLink>
                                 </li>
-                                <li>
-                                    <FooterLink href="https://top100token.com/address/0x201AF44d9DfA5464F20B8dD8aA96Fc016d26E7C0">
-                                        Top100Token
-                                    </FooterLink>
-                                </li>
-                                <li>
-                                    <FooterLink href="https://tokensniffer.com/token/bsc/nxe69zdsso2phi25ez913sksgo3znxjv232lv99h4kpg5zbxp6dk2nkmaqbx">
-                                        TokenSniffer
-                                    </FooterLink>
-                                </li>
-                                <li>
-                                    <FooterLink href="https://coinmarketcap.com/dexscan/bsc/0x4d080a7c3c8d02cca1ea8240a38d0eeab7e5bb00/">
-                                        Coinmarketcap pool
-                                    </FooterLink>
-                                </li>
+                            </ul>
+                        </div>
+
+                        {/* Scanners */}
+                        <div className="">
+                            <FooterTitle>Charts </FooterTitle>
+                            <ul className="mt-2 space-y-1 ">
                                 <li>
                                     <FooterLink href="https://www.dextools.io/app/en/bnb/pair-explorer/0x4d080a7c3c8d02cca1ea8240a38d0eeab7e5bb00">
-                                        Charts
+                                        Dextools
                                     </FooterLink>
                                 </li>
                                 <li>
@@ -158,6 +150,29 @@ const LambroFooter = () => {
                                         Poocoin
                                     </FooterLink>
                                 </li>
+                            </ul>
+                        </div>
+
+                        {/* Scanners */}
+                        <div className="">
+                            <FooterTitle>Trackers</FooterTitle>
+                            <ul className="mt-2 space-y-1">
+                                <li>
+                                    <FooterLink href="https://top100token.com/address/0x201AF44d9DfA5464F20B8dD8aA96Fc016d26E7C0">
+                                        Top100Token
+                                    </FooterLink>
+                                </li>
+                                <li>
+                                    <FooterLink href="https://tokensniffer.com/token/bsc/nxe69zdsso2phi25ez913sksgo3znxjv232lv99h4kpg5zbxp6dk2nkmaqbx">
+                                        TokenSniffer
+                                    </FooterLink>
+                                </li>
+                                <li>
+                                    <FooterLink href="https://coinmarketcap.com/dexscan/bsc/0x4d080a7c3c8d02cca1ea8240a38d0eeab7e5bb00/">
+                                        Coinmarketcap pool
+                                    </FooterLink>
+                                </li>
+
                                 <li>
                                     <FooterLink href="#">Coinmarketcap</FooterLink>
                                 </li>
