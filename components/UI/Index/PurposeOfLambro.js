@@ -1,6 +1,6 @@
 import BlurCircleSvg from "@/components/SvgComponents/BlurCircleSvg";
 import BlurCurlyCircleSvg from "@/components/SvgComponents/BlurCurlyCircleSvg";
-import { GradientTextSmallHeading } from "@/components/widgets/StyledComponents";
+import { GradientTextSmallHeading, TextPrimary } from "@/components/widgets/StyledComponents";
 import Image from "next/image";
 import React from "react";
 
@@ -16,7 +16,7 @@ const PurposeOfLambro = () => {
     return (
         <div className="grid lg:grid-cols-2 gap-y-10 relative " id="purpose">
             {/* Left */}
-            <div className="justify-self-end self-center  order-2 lg:order-1">
+            <div className="justify-self-end self-center  ">
                 <Image
                     src={"/assets/img/purpose_of_lambro_image.png"}
                     width={600}
@@ -25,28 +25,32 @@ const PurposeOfLambro = () => {
                 />
             </div>
             {/* Right */}
-            <div className="justify-self-start self-end order-1 lg:order-2">
+            <div className="justify-self-start self-end ">
                 <div>
-                    <GradientTextSmallHeading className="mb-5 lg:mb-0">Purpose of Lambro:</GradientTextSmallHeading>
-                    <GradientTextSmallHeading className="!text-[20px]">
+                    <GradientTextSmallHeading className="text-[28px] max-w-[500px] font-semibold mb-1">
+                        Purpose of Lambro
+                    </GradientTextSmallHeading>
+                    <GradientTextSmallHeading className="!text-[16px] lg:!text-[20px] !font-normal">
                         Inspiring Wealth-Building Through Knowledge and Innovation
                     </GradientTextSmallHeading>
                 </div>
-                <div className="mt-12 space-y-8">
+                <div className="mt-5 space-y-4 lg:space-y-6">
                     {purposeOfLambro.map((item, index) => (
                         <div key={index} className="flex items-center text-lg max-w-[690px]">
-                            <div className="grid place-items-center ">
-                                <h2 className="absolute text-[50px] lg:text-[80px] font-konnect font-black text-[#30293c] ml-4 mt-1 -z-10">
-                                    {++index}
-                                </h2>
-                                <div className="w-[80px] h-[80px] lg:w-[110px] lg:h-[110px] -translate-x-1 -translate-y-2">
-                                    <BlurCircleSvg />
+                            <div className="self-start translate-y-5">
+                                <div className="grid place-items-center">
+                                    <h2 className="justify-self-start text-[34px] lg:text-[96px] font-konnect font-black text-[#30293c] md:ml-4 mt-1 -z-10 min-w-[40px] lg:min-w-[67px]">
+                                        {++index}
+                                    </h2>
+                                    <div className="absolute w-[100px] h-[100px] lg:w-[110px] lg:h-[110px] -translate-x-4 -translate-y-2">
+                                        <BlurCircleSvg />
+                                    </div>
                                 </div>
                             </div>
-                            <p>{item}</p>
+                            <TextPrimary>{item}</TextPrimary>
                         </div>
                     ))}
-                    <GradientTextSmallHeading className="!text-[20px]">
+                    <GradientTextSmallHeading className="!text-[14px] lg:!text-[20px]">
                         Join us on this exciting journey!
                     </GradientTextSmallHeading>
                 </div>

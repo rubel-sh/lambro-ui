@@ -11,7 +11,7 @@ const AboutTheLambro = () => {
     return (
         <div className="grid  lg:grid-cols-2 relative " id="about">
             {/* Left Texts */}
-            <div className="justify-self-center  lg:justify-self-end">
+            <div className="justify-self-center  lg:justify-self-end order-2 lg:order-1">
                 <GradientTextSmallHeading>About Lambro</GradientTextSmallHeading>
                 <div className="lg:mt-8 mt-4 space-y-5 max-w-[650px]">
                     <TextPrimary>
@@ -40,12 +40,12 @@ const AboutTheLambro = () => {
                 </div>
             </div>
             {/* right images */}
-            <div className="lg:justify-self-start justify-self-center lg:self-end ">
+            <div className="lg:justify-self-start justify-self-center lg:self-end order-1 lg:order-2">
                 <Image
                     src={"/assets/img/aboutLambroImage.png"}
                     width={600}
                     height={600}
-                    className=" lg:translate-y-20 translate-y-10 -translate-x-10"
+                    className="translate-y-0 lg:translate-y-20  -translate-x-5 lg:-translate-x-10"
                 />
             </div>
             <div className="absolute top-0 right-0  -translate-y-52 -z-10 ">

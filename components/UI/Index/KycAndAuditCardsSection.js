@@ -11,10 +11,10 @@ const KycAndAuditCardsSection = () => {
             <div className="absolute top-0 w-full -z-10">
                 <HexagonalCubesSvg />
             </div>
-            <Container className="pt-24">
+            <Container className="pt-14 md:pt-24">
                 {/* GRID CONTAINER */}
                 <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                    <div className="md:col-span-2">
+                    <div className="md:col-span-2 ">
                         {/* 2 col span div */}
                         <GradientTextSmallHeading className="text-[28px] max-w-[500px] font-semibold">
                             KYC, Audits & Trackers:
@@ -22,7 +22,7 @@ const KycAndAuditCardsSection = () => {
                         <GradientTextSmallHeading className="!text-[20px]">
                             Ensuring Transparency and Security
                         </GradientTextSmallHeading>
-                        <p className="relative text-[20px] leading-[30px] font-inter mt-7">
+                        <p className="relative text-[14px] md:text-[20px] leading-normal font-inter mt-2 md:mt-7 ">
                             Lambro is committed to providing a secure, transparent, and trustworthy platform for our
                             community. To ensure this, we've prioritized stringent auditing processes and implemented
                             Know Your Customer (KYC) verifications

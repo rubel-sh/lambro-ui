@@ -7,14 +7,16 @@ const LambroAcademy = () => {
     return (
         <div className="grid lg:grid-cols-2 gap-y-10 mt-10 relative" id="academy">
             {/* Left Texts */}
-            <div className="lg:justify-self-end">
+            <div className="lg:justify-self-end order-2 lg:order-1">
                 <div>
-                    <GradientTextSmallHeading>Lambro Academy</GradientTextSmallHeading>
-                    <GradientTextSmallHeading className="!text-[20px]">
+                    <GradientTextSmallHeading className="text-[28px] max-w-[500px] font-semibold mb-1">
+                        Lambro Academy
+                    </GradientTextSmallHeading>
+                    <GradientTextSmallHeading className="!text-[16px] lg:!text-[20px] !font-normal">
                         Empowering the Crypto Community with Knowledge
                     </GradientTextSmallHeading>
                 </div>
-                <div className="lg:mt-8 lg:space-y-5 max-w-[650px] text-lg  mt-4">
+                <div className="lg:mt-5 lg:space-y-5 max-w-[650px] text-lg  mt-4">
                     <TextPrimary>
                         The Lambro Academy is a cornerstone of the Lambro project, embodying our commitment to education
                         and empowerment. We believe that knowledge is a critical tool for individual and collective
@@ -50,7 +52,7 @@ const LambroAcademy = () => {
                 </div>
             </div>
             {/* right images */}
-            <div className="justify-self-center self-start">
+            <div className="justify-self-center self-start order-1 lg:order-2">
                 <Image
                     src={"/assets/img/lambro_academy_image.png"}
                     width={600}
