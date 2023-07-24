@@ -1,6 +1,6 @@
 import Container from "@/components/Layout/Container";
 import BlurCurlyCircleSvg from "@/components/SvgComponents/BlurCurlyCircleSvg";
-import { GradientTextSmallHeading } from "@/components/widgets/StyledComponents";
+import { GradientTextSmallHeading, TextPrimary } from "@/components/widgets/StyledComponents";
 import Image from "next/image";
 import React from "react";
 
@@ -8,7 +8,7 @@ const LambroTokenSection = () => {
     return (
         <div className="relative" id="token">
             <Container>
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-10 items-center pt-32">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-8 items-center pt-[66px] lg:pt-[180px]">
                     {/* Image */}
                     <div className="relative mx-auto">
                         <Image src="/assets/img/lambro-logo-big.png" alt="Lambro Token" width={500} height={500} />
@@ -20,19 +20,19 @@ const LambroTokenSection = () => {
                             <GradientTextSmallHeading className="font-normal !text-[18px]">
                                 Total supply:
                             </GradientTextSmallHeading>
-                            <span> 69,420,000,000</span>
+                            <TextPrimary> 69,420,000,000</TextPrimary>
                         </div>
                         <div className="flex items-center gap-1 text-lg flex-wrap">
                             <GradientTextSmallHeading className="font-normal !text-[18px]">
                                 Circulating supply (at launch):
                             </GradientTextSmallHeading>
-                            <span> 41.65B (5% at launch and working our way to 60% circulating)</span>
+                            <TextPrimary> 41.65B (5% at launch and working our way to 60% circulating)</TextPrimary>
                         </div>
-                        <p className="mt-4">
-                            Remaining 40% reserved for development, marketing, team, advisors, and reserve fund Gradual
-                            introduction of reserved tokens based on roadmap milestones Promoting healthy price growth
-                            and stability
-                        </p>
+                        <TextPrimary className="mt-4">
+                            Remaining 40% reserved for development, marketing, team, advisors, and reserve fund <br />
+                            Gradual introduction of reserved tokens based on roadmap milestones <br />
+                            Promoting healthy price growth and stability
+                        </TextPrimary>
                     </div>
                 </div>
             </Container>

@@ -28,8 +28,8 @@ const TeamCard = ({ image, name, designation }) => {
                     <Image src={image} width={1200} height={800} className="w-full h-full relative z-50" />
                 </div>
                 {/* Texts section */}
-                <div className="mt-7">
-                    <GradientTextCardTitle>{name}</GradientTextCardTitle>
+                <div className="mt-5 px-2">
+                    <GradientTextCardTitle className="!text-[24px] font-medium">{name}</GradientTextCardTitle>
                     <p className="mt-1 text-base">{designation}</p>
                 </div>
             </div>

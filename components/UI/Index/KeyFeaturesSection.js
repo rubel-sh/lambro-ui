@@ -4,7 +4,7 @@ import React from "react";
 
 const KeyFeaturesSection = () => {
     return (
-        <div className="text-center pt-36" id="features">
+        <div className="text-center pt-[90px] lg:pt-[190px]" id="features">
             <GradientTextSmallHeading>Key Features</GradientTextSmallHeading>
             <div className="mt-5">
                 <Image
