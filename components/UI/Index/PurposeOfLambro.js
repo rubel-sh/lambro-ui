@@ -35,11 +35,11 @@ const PurposeOfLambro = () => {
                 <div className="mt-12 space-y-8">
                     {purposeOfLambro.map((item, index) => (
                         <div key={index} className="flex items-center text-lg max-w-[690px]">
-                            <div className="grid place-items-center">
-                                <h2 className="absolute text-[50px] lg:text-[80px]  font-black text-[#30293c] ml-4 mt-1">
+                            <div className="grid place-items-center ">
+                                <h2 className="absolute text-[50px] lg:text-[80px] font-konnect font-black text-[#30293c] ml-4 mt-1 -z-10">
                                     {++index}
                                 </h2>
-                                <div className="w-[80px] h-[80px] lg:w-[110px] lg:h-[110px]">
+                                <div className="w-[80px] h-[80px] lg:w-[110px] lg:h-[110px] -translate-x-1 -translate-y-2">
                                     <BlurCircleSvg />
                                 </div>
                             </div>
