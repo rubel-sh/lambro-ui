@@ -5,7 +5,7 @@ import React from "react";
 
 const AboutTheLambro = () => {
     return (
-        <div className="grid  lg:grid-cols-2 relative ">
+        <div className="grid  lg:grid-cols-2 relative " id="about">
             {/* Left Texts */}
             <div className="justify-self-center  lg:justify-self-end">
                 <GradientTextSmallHeading>About Lambro</GradientTextSmallHeading>

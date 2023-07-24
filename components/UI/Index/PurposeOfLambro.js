@@ -14,7 +14,7 @@ const PurposeOfLambro = () => {
         "Above all, Lambro is a project built for a community, not the other way around. We're here to build a space where anyone can learn, grow, and become an active participant in the cryptocurrency world. By fostering a robust, engaged community that should feel like a family, we believe we can inspire a wealth-building revolution.",
     ];
     return (
-        <div className="grid lg:grid-cols-2 gap-y-10 relative">
+        <div className="grid lg:grid-cols-2 gap-y-10 relative" id="purpose">
             {/* Left */}
             <div className="justify-self-end self-start  order-2 lg:order-1">
                 <Image

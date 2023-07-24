@@ -18,12 +18,24 @@ const Header = () => {
                         <HamMenuSvg />
                     </div>
                     <ul className="hidden  justify-start items-center gap-6 lg:flex">
-                        <li className="text-white text-[15px] font-medium">About</li>
-                        <li className="text-white text-[15px] font-medium">Purpose</li>
-                        <li className="text-white text-[15px] font-medium">Token</li>
-                        <li className="text-white text-[15px] font-medium">Features</li>
-                        <li className="text-white text-[15px] font-medium">Academy</li>
-                        <li className="text-white text-[15px] font-medium">Roadmap</li>
+                        <li className="text-white text-[15px] font-medium">
+                            <Link href={"#about"}>About</Link>
+                        </li>
+                        <li className="text-white text-[15px] font-medium">
+                            <Link href="#purpose">Purpose</Link>
+                        </li>
+                        <li className="text-white text-[15px] font-medium">
+                            <Link href="#token">Token</Link>
+                        </li>
+                        <li className="text-white text-[15px] font-medium">
+                            <Link href="#features">Features</Link>
+                        </li>
+                        <li className="text-white text-[15px] font-medium">
+                            <Link href="#academy">Academy</Link>
+                        </li>
+                        <li className="text-white text-[15px] font-medium">
+                            <Link href="#roadmap">Roadmap</Link>
+                        </li>
                         <Link
                             href="mailto:bro@lambro.io"
                             className="px-5 py-2.5 bg-indigo-900 rounded-[10px] border border-indigo-900 justify-start items-start gap-2.5 flex text-white text-[15px] font-medium"
@@ -38,25 +50,25 @@ const Header = () => {
                     <div className=" p-2 bg-[#23252a] absolute right-0 top-full rounded-lg lg:hidden">
                         <ul className=" justify-start gap-y-5 flex flex-col   ">
                             <li className=" text-[15px] font-medium">
-                                <HeaderLink href={"#"}>About</HeaderLink>
+                                <HeaderLink href={"#about"}>About</HeaderLink>
                             </li>
                             <li className=" text-[15px] font-medium">
-                                <HeaderLink href={"#"}>Purpose</HeaderLink>
+                                <HeaderLink href={"#purpose"}>Purpose</HeaderLink>
                             </li>
                             <li className=" text-[15px] font-medium">
-                                <HeaderLink href={"#"}>Token</HeaderLink>
+                                <HeaderLink href={"#token"}>Token</HeaderLink>
                             </li>
                             <li className=" text-[15px] font-medium">
-                                <HeaderLink href={"#"}>Features</HeaderLink>
+                                <HeaderLink href={"#features"}>Features</HeaderLink>
                             </li>
                             <li className=" text-[15px] font-medium">
-                                <HeaderLink href={"#"}>Academy</HeaderLink>
+                                <HeaderLink href={"#academy"}>Academy</HeaderLink>
                             </li>
                             <li className=" text-[15px] font-medium">
-                                <HeaderLink href={"#"}>Roadmap</HeaderLink>
+                                <HeaderLink href={"#roadmap"}>Roadmap</HeaderLink>
                             </li>
                             <button className=" bg-indigo-900 rounded-[10px]  border border-indigo-900 justify-start items-start gap-2.5 flex  text-[15px] font-medium ">
-                                <HeaderLink href={"#"}>Contact Us</HeaderLink>
+                                <HeaderLink href="mailto:bro@lambro.io">Contact Us</HeaderLink>
                             </button>
                         </ul>
                     </div>

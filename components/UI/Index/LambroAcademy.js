@@ -5,7 +5,7 @@ import React from "react";
 
 const LambroAcademy = () => {
     return (
-        <div className="grid lg:grid-cols-2 gap-y-10 mt-10 relative">
+        <div className="grid lg:grid-cols-2 gap-y-10 mt-10 relative" id="academy">
             {/* Left Texts */}
             <div className="lg:justify-self-end">
                 <div>

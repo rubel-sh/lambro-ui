@@ -17,7 +17,10 @@ const KycAndAuditCardsSection = () => {
                     <div className="md:col-span-2">
                         {/* 2 col span div */}
                         <GradientTextSmallHeading className="text-[28px] max-w-[500px] font-semibold">
-                            KYC, Audits & Trackers: <span className="text-lg">Ensuring Transparency and Security</span>
+                            KYC, Audits & Trackers:
+                        </GradientTextSmallHeading>
+                        <GradientTextSmallHeading className="!text-[20px]">
+                            Ensuring Transparency and Security
                         </GradientTextSmallHeading>
                         <p className="relative text-[20px] leading-[30px] font-inter mt-7">
                             Lambro is committed to providing a secure, transparent, and trustworthy platform for our
