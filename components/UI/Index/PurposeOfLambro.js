@@ -39,7 +39,7 @@ const PurposeOfLambro = () => {
                         <div key={index} className="flex items-center text-lg max-w-[690px]">
                             <div className="self-start translate-y-5">
                                 <div className="grid place-items-center">
-                                    <h2 className="justify-self-start text-[34px] lg:text-[96px] font-konnect font-black text-[#30293c] md:ml-4 mt-1 -z-10 min-w-[40px] lg:min-w-[67px]">
+                                    <h2 className="justify-self-start text-[34px] lg:text-[96px] font-konnect font-black text-[#55458b] md:ml-4 mt-1 -z-10 min-w-[40px] lg:min-w-[67px]">
                                         {++index}
                                     </h2>
                                     <div className="absolute w-[100px] h-[100px] lg:w-[110px] lg:h-[110px] -translate-x-4 -translate-y-2">
