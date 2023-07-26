@@ -3,9 +3,9 @@ import React from "react";
 import { GradientTextCardTitle } from "./StyledComponents";
 import TeamCardSvg from "../SvgComponents/TeamCardSvg";
 
-const TeamCard = ({ image, name, designation }) => {
+const TeamCard = ({ image, name, designation, onClick }) => {
     return (
-        <div className="relative group ">
+        <div className="relative group cursor-pointer" onClick={onClick}>
             <TeamCardSvg />
             <div className="absolute inset-x-0 inset-y-0 overflow-hidden">
                 <Image

@@ -9,6 +9,9 @@ import LambroTokenomics from "@/components/UI/Index/LambroTokenomics";
 import LambroTeamSection from "@/components/UI/Index/LambroTeamSection";
 import LambroRoadmapSection from "@/components/UI/Index/LambroRoadmapSection";
 import LambroFooter from "@/components/UI/Index/LambroFooter";
+import { useTeamModalContext } from "@/context/TeamModalProvider";
+import Rodal from "rodal";
+import TeamModal from "@/components/UI/Index/TeamModal";
 
 export default function Home() {
     return (
@@ -49,6 +52,10 @@ export default function Home() {
 
             {/* FOOTER SECTION*/}
             <LambroFooter />
+
+            {/* MODAL */}
+
+            <TeamModal />
         </main>
     );
 }

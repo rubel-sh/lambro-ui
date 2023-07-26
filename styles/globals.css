@@ -12,6 +12,78 @@
   background-color: #161527;
 }
 
+.rodal {
+  overflow-y: scroll !important;
+}
+.rodal-close {
+  top: 55px !important;
+  right: 68px !important;
+}
+.rodal-dialog{
+  background-color: #191528 !important;
+}
+
+@media (max-width: 512px) {
+  .rodal-dialog {
+
+    position: static !important;
+    width: 96% !important;
+    height: fit-content !important;
+    margin-right: 3% !important;
+  }
+  .rodal-mask{
+    display: none !important;
+  }
+
+}
+
+@media (min-width: 512px) and (max-width: 639px) {
+  .rodal-dialog {
+    position: static !important;
+    height: fit-content !important;
+  }
+  .rodal-mask{
+    display: none !important;
+  }
+
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .rodal-dialog {
+    position: static !important;
+    height: fit-content !important;
+  }
+  .rodal-mask{
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .rodal-dialog {
+    height: fit-content !important;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1139px) {
+  .rodal-dialog {
+    height: fit-content !important;
+  }
+}
+
+
+@media (min-width: 1140px) and (max-width: 1279px) {
+  .rodal-dialog {
+    height: fit-content !important;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1639px) {
+  .rodal-dialog {
+    height: fit-content !important;
+  }
+}
+
 /* *{
   outline: 1px solid red;
 } */

@@ -89,7 +89,7 @@ const LambroFooter = () => {
                             <FooterTitle>Projects</FooterTitle>
                             <ul className="mt-2 space-y-1">
                                 <li>
-                                    <FooterLink href="https://lambrostaking.io/">Stacking</FooterLink>
+                                    <FooterLink href="https://lambrostaking.io/">Staking</FooterLink>
                                 </li>
                                 <li>
                                     <FooterLink href="https://lambro.academy/">Academy</FooterLink>
