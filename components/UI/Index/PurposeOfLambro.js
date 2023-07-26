@@ -42,7 +42,7 @@ const PurposeOfLambro = () => {
                                     <h2 className="justify-self-start text-[34px] lg:text-[96px] font-konnect font-black text-[#D8C4F3] text-opacity-20 md:ml-4 mt-1 -z-10 min-w-[40px] lg:min-w-[67px]">
                                         {++index}
                                     </h2>
-                                    <div className="absolute w-[100px] h-[100px] lg:w-[110px] lg:h-[110px] -translate-x-4 -translate-y-2">
+                                    <div className="absolute w-[50px] h-[50px] lg:w-[110px] lg:h-[110px] -translate-x-14 -translate-y-10">
                                         <BlurCircleSvg />
                                     </div>
                                 </div>

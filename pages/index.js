@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <link rel="icon" href="/assets/img/favicon.png" />
+                <link rel="shortcut icon" href="/favicon.ico" />
                 <title>Lambro.io</title>
                 <meta name="description" content="Lambro.io" />
                 <meta name="keywords" content="Lambro.io" />
