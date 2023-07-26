@@ -39,10 +39,10 @@ const PurposeOfLambro = () => {
                         <div key={index} className="flex items-center text-lg max-w-[690px]">
                             <div className="self-start translate-y-5">
                                 <div className="grid place-items-center">
-                                    <h2 className="justify-self-start text-[34px] lg:text-[96px] font-konnect font-black text-[#D8C4F3] text-opacity-20 md:ml-4 mt-1 -z-10 min-w-[40px] lg:min-w-[67px]">
+                                    <h2 className="justify-self-start text-[34px] lg:text-[96px] font-konnect font-black text-[#D8C4F3] text-opacity-50 lg:text-opacity-30 md:ml-4 mt-1 -z-10 min-w-[40px] lg:min-w-[67px]">
                                         {++index}
                                     </h2>
-                                    <div className="absolute w-[50px] h-[50px] lg:w-[110px] lg:h-[110px] -translate-x-14 -translate-y-10">
+                                    <div className="absolute w-[50px] h-[50px] lg:w-[110px] lg:h-[110px] -translate-x-14 -translate-y-10 lg:-translate-x-5 lg:-translate-y-4">
                                         <BlurCircleSvg />
                                     </div>
                                 </div>
