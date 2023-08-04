@@ -31,7 +31,9 @@ const Header = () => {
                             <Link href="#features">Features</Link>
                         </li>
                         <li className="text-white text-[15px] font-medium">
-                            <Link href="#academy">Academy</Link>
+                            <Link target="_blank" href="https://lambro.academy/">
+                                Academy
+                            </Link>
                         </li>
                         <li className="text-white text-[15px] font-medium">
                             <Link href="#roadmap">Roadmap</Link>
@@ -51,25 +53,39 @@ const Header = () => {
                         {/* <div class="absolute inset-0 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 border-4 border-gray-300"></div> */}
                         <ul className=" justify-start gap-y-5 flex flex-col   ">
                             <li className=" text-[15px] font-medium">
-                                <HeaderLink href={"#about"}>About</HeaderLink>
+                                <HeaderLink setIsOpen={setIsOpen} href={"#about"}>
+                                    About
+                                </HeaderLink>
                             </li>
                             <li className=" text-[15px] font-medium">
-                                <HeaderLink href={"#purpose"}>Purpose</HeaderLink>
+                                <HeaderLink setIsOpen={setIsOpen} href={"#purpose"}>
+                                    Purpose
+                                </HeaderLink>
                             </li>
                             <li className=" text-[15px] font-medium">
-                                <HeaderLink href={"#token"}>Token</HeaderLink>
+                                <HeaderLink setIsOpen={setIsOpen} href={"#token"}>
+                                    Token
+                                </HeaderLink>
                             </li>
                             <li className=" text-[15px] font-medium">
-                                <HeaderLink href={"#features"}>Features</HeaderLink>
+                                <HeaderLink setIsOpen={setIsOpen} href={"#features"}>
+                                    Features
+                                </HeaderLink>
                             </li>
                             <li className=" text-[15px] font-medium">
-                                <HeaderLink href={"#academy"}>Academy</HeaderLink>
+                                <HeaderLink setIsOpen={setIsOpen} href={"https://lambro.academy/"} noBlank>
+                                    Academy
+                                </HeaderLink>
                             </li>
                             <li className=" text-[15px] font-medium">
-                                <HeaderLink href={"#roadmap"}>Roadmap</HeaderLink>
+                                <HeaderLink setIsOpen={setIsOpen} href={"#roadmap"}>
+                                    Roadmap
+                                </HeaderLink>
                             </li>
                             <button className=" bg-indigo-900 rounded-[10px]  border border-indigo-900 justify-start items-start gap-2.5 flex  text-[15px] font-medium ">
-                                <HeaderLink href="mailto:bro@lambro.io">Contact Us</HeaderLink>
+                                <HeaderLink setIsOpen={setIsOpen} href="mailto:bro@lambro.io">
+                                    Contact Us
+                                </HeaderLink>
                             </button>
                         </ul>
                     </div>
@@ -79,9 +95,11 @@ const Header = () => {
     );
 };
 
-const HeaderLink = ({ children, href }) => {
+const HeaderLink = ({ children, href, noBlank, setIsOpen }) => {
     return (
         <Link
+            onClick={() => setIsOpen(false)}
+            target={noBlank ? "_blank" : "_self"}
             href={href}
             className="text-[14px] text-[#bcbdbe] font-konnect font-medium block px-6 py-3 pr-16 hover:bg-[#1e1f24] rounded-lg"
         >
