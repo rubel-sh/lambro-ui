@@ -13,9 +13,9 @@ const LambroTeamSection = () => {
     };
     const members = [
         {
-            image: "/assets/img/team_members/Víðir_Helgi_Helgason.png",
+            image: "/assets/img/team_members/Víðir_Helgi_Helgason.jpg",
             name: "Víðir Helgi Helgason",
-            designation: "Founder and CEO",
+            designation: "Founder and CEO ",
         },
         {
             image: "/assets/img/team_members/Svava_Heiðarsdóttir.png",
@@ -28,7 +28,7 @@ const LambroTeamSection = () => {
             designation: "Chief Strategy and Communications Officer",
         },
         {
-            image: "/assets/img/team_members/grzagore.png",
+            image: "/assets/img/team_members/grzagore.jpg",
             name: "Grzegorz Gierek",
             designation: "Advisor & Community Manager",
         },

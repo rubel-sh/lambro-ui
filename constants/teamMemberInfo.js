@@ -2,7 +2,7 @@ export const teamsConstant = [
     {
         name: "Víðir Helgi Helgason",
         position: "Founder and CEO",
-        image: "/assets/img/team_members/Víðir_Helgi_Helgason.png",
+        image: "/assets/img/team_members/Víðir_Helgi_Helgason.jpg",
         telegram: "https://t.me/lambrotoken",
         linkedIn: "https://www.linkedin.com/in/v%C3%AD%C3%B0ir-helgi-helgason-190a25179/",
         bio: [
@@ -33,7 +33,7 @@ export const teamsConstant = [
     {
         name: "Grzegorz Gierek",
         position: "Advisor & Community Manager",
-        image: "/assets/img/team_members/grzagore.png",
+        image: "/assets/img/team_members/grzagore.jpg",
         telegram: "https://t.me/giero5",
         linkedIn: "",
         bio: [
