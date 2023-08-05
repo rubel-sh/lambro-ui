@@ -51,7 +51,7 @@ const TeamModal = () => {
                     <div className="flex flex-col md:flex-row gap-10 md:gap-5 lg:gap-16">
                         {/* Image Section */}
                         <div className="p-4 rounded-2xl bg-[#201b34] self-start">
-                            <div className="bg-gradient-to-tl from-[#d8cdf31a] to-[#6e44d95a] rounded-2xl p-2">
+                            <div className="bg-gradient-to-tl from-[#d8cdf31a] to-[#6e44d95a] rounded-2xl ">
                                 <Image
                                     src={selectedTeamMember.image}
                                     width={600}
