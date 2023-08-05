@@ -4,7 +4,7 @@ import { GradientTextCardTitle } from "./StyledComponents";
 
 const TeamCard = ({ image, name, designation, onClick }) => {
     return (
-        <div className="relative group cursor-pointer bg-[#101522] rounded-md overflow-hidden" onClick={onClick}>
+        <div className="relative group cursor-pointer bg-[#101522] rounded-lg overflow-hidden" onClick={onClick}>
             {/* <TeamCardSvg /> */}
             <div className="absolute inset-x-0 inset-y-0 overflow-hidden ">
                 <Image
@@ -26,7 +26,7 @@ const TeamCard = ({ image, name, designation, onClick }) => {
                 <Image src={image} width={1200} height={800} className="w-full h-full relative z-10  " />
             </div>
             {/* Texts section */}
-            <div className="mt-5 px-2 py-4">
+            <div className="mt-5 px-2 pt-4 pb-8 md:pb-5">
                 <GradientTextCardTitle className="!text-[24px] font-medium">{name}</GradientTextCardTitle>
                 <p className="mt-2 text-base">{designation}</p>
             </div>
