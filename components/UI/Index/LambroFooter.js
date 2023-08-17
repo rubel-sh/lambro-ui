@@ -10,7 +10,7 @@ import {
 } from "@/components/widgets/StyledComponents";
 import Image from "next/image";
 import Link from "next/link";
-import { FaYoutube, FaTiktok, FaFacebook, FaTwitch, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaYoutube, FaTiktok, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const LambroFooter = () => {
     return (
