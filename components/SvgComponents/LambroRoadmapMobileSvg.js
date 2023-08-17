@@ -88,44 +88,44 @@ const LambroRoadmapMobileSvg = () => (
     <path style={{mixBlendMode:"screen"}} d="M334 1537C334 1543.35 283.166 1548.5 220.5 1548.5C157.834 1548.5 107 1543.35 107 1537C107 1530.65 157.834 1525.5 220.5 1525.5C283.166 1525.5 334 1530.65 334 1537Z" fill="url(#paint48_radial_154_280)"/>
     <path style={{mixBlendMode:"screen"}} d="M251 1722C251 1728.35 200.166 1733.5 137.5 1733.5C74.8337 1733.5 24 1728.35 24 1722C24 1715.65 74.8337 1710.5 137.5 1710.5C200.166 1710.5 251 1715.65 251 1722Z" fill="url(#paint49_radial_154_280)"/>
     <defs>
-    <filter id="filter0_b_154_280" x="-10.75" y="26.75" width="379.5" height="254.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter0_b_154_280" x="-10.75" y="26.75" width="379.5" height="254.5" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feGaussianBlur in="BackgroundImageFix" stdDeviation="17"/>
     <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_154_280"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_154_280" result="shape"/>
     </filter>
-    <filter id="filter1_b_154_280" x="-10.75" y="272.75" width="379.5" height="254.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter1_b_154_280" x="-10.75" y="272.75" width="379.5" height="254.5" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feGaussianBlur in="BackgroundImageFix" stdDeviation="17"/>
     <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_154_280"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_154_280" result="shape"/>
     </filter>
-    <filter id="filter2_b_154_280" x="-10.75" y="518.75" width="379.5" height="254.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter2_b_154_280" x="-10.75" y="518.75" width="379.5" height="254.5" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feGaussianBlur in="BackgroundImageFix" stdDeviation="17"/>
     <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_154_280"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_154_280" result="shape"/>
     </filter>
-    <filter id="filter3_b_154_280" x="-10.75" y="764.75" width="379.5" height="254.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter3_b_154_280" x="-10.75" y="764.75" width="379.5" height="254.5" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feGaussianBlur in="BackgroundImageFix" stdDeviation="17"/>
     <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_154_280"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_154_280" result="shape"/>
     </filter>
-    <filter id="filter4_b_154_280" x="-10.75" y="1010.75" width="379.5" height="254.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter4_b_154_280" x="-10.75" y="1010.75" width="379.5" height="254.5" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feGaussianBlur in="BackgroundImageFix" stdDeviation="17"/>
     <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_154_280"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_154_280" result="shape"/>
     </filter>
-    <filter id="filter5_b_154_280" x="-10.75" y="1256.75" width="379.5" height="254.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter5_b_154_280" x="-10.75" y="1256.75" width="379.5" height="254.5" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feGaussianBlur in="BackgroundImageFix" stdDeviation="17"/>
     <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_154_280"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_154_280" result="shape"/>
     </filter>
-    <filter id="filter6_b_154_280" x="-10.75" y="1502.75" width="379.5" height="254.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter6_b_154_280" x="-10.75" y="1502.75" width="379.5" height="254.5" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feGaussianBlur in="BackgroundImageFix" stdDeviation="17"/>
     <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_154_280"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_154_280" result="shape"/>
