@@ -10,7 +10,7 @@ import {
 } from "@/components/widgets/StyledComponents";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import { FaYoutube, FaTiktok, FaFacebook, FaTwitch, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const LambroFooter = () => {
     return (
@@ -47,15 +47,24 @@ const LambroFooter = () => {
                             {/* Social Media */}
                             <div className="mt-5">
                                 <FooterTitle>Social Media</FooterTitle>
-                                <div className="flex items-center gap-x-6 mt-2">
+                                <div className="flex items-center flex-wrap x gap-x-5 gap-y-2 mt-2">
                                     <Link target="_blank" href="https://facebook.com/lambrotoken">
-                                        <FacebookIconSvg />
+                                        {/* <FacebookIconSvg />  className="text-[#896EFD  size={18}*/}
+                                        <FaFacebook className="text-[#896EFD] " size={18} />
                                     </Link>
                                     <Link target="_blank" href="https://twitter.com/lambrotoken">
-                                        <TwitterIconSvg />
+                                        {/* <TwitterIconSvg /> */}
+                                        <FaTwitter className="text-[#896EFD] " size={18} />
                                     </Link>
                                     <Link target="_blank" href="https://www.instagram.com/lambrotoken/">
-                                        <InstagramIconSvg />
+                                        {/* <InstagramIconSvg /> */}
+                                        <FaInstagram className="text-[#896EFD] " size={18} />
+                                    </Link>
+                                    <Link target="_blank" href="https://www.tiktok.com/@lambrotoken">
+                                        <FaTiktok className="text-[#896EFD] " size={18} />
+                                    </Link>
+                                    <Link target="_blank" href="https://youtube.com/@LambroToken?feature=share7">
+                                        <FaYoutube className="text-[#896EFD] mr-2" size={18} />
                                     </Link>
                                 </div>
                             </div>
